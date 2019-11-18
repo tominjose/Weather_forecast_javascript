@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<title></title>
+<link rel="stylesheet" href="weather.css">
+</head>
+<body >
+   <h1 style="margin-left:22em">CLIMATE</h1>
+  <div class="input">
+      <input type="text" placeholder="Enter the city" id="autocomplete" class="input_text" autocomplete="on">
+      <input type="submit" value="Submit" class="submit">
+  </div>
+
+<div class="container">
+ <div class="card">
+   <h1 class="name" id="name"></h1>
+   <p class="temp"></p>
+   <p class="clouds"></p>
+   <p class="desc"></p>
+ </div>
+</div>
+<script src="weather.js"></script>
+</body>
+</html>
